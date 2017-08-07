@@ -12,7 +12,7 @@ class Mywindow(Gtk.Window):
 		self.button.connect("clicked", self.on_button_clicked)
 		self.add(self.button)
 
-	def on_button_clicked(self):
+	def on_button_clicked(self, widget):
 		print('hello')
 
 
